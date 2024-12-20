@@ -7,7 +7,7 @@ import SearchPage from "../pages/SearchPage"
 
 const router = createBrowserRouter([
     {
-        pash: "/",
+        pash: "/MoviesDB",
         element: <App />,
         children: [
             {
