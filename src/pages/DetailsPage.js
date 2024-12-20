@@ -15,7 +15,7 @@ const DetailsPage = () => {
   const [playVidioId, setPlayVidioId] = useState("")
   const params = useParams()
 
-  console.log(params)
+  // console.log(params)
 
   const { data: filmData } = useFetchDetails(`/${params?.explore}/${params?.id}`)
   const { data: castData } = useFetchDetails(`/${params?.explore}/${params?.id}/credits`)

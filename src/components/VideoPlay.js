@@ -6,8 +6,6 @@ function VideoPlay({data, close, media_type}) {
     const {data: videoData} = useFetchDetails(`/${media_type}/${data?.id}/videos`)
     const videoId = videoData?.results.filter(el=>el.name === "Official Trailer").map(el =>el.key).join(", ")
 
-    console.log("VideoPlay : ", videoData)
-    console.log(videoId)
   return (
     <section className='fixed bg-neutral-700 top-0 right-0 bottom-0 left-0 
                         z-40 bg-opacity-50 flex justify-center items-center'>
@@ -17,7 +15,7 @@ function VideoPlay({data, close, media_type}) {
             <IoClose/>
         </button>
         <iframe
-            src={`http://www.youtube.com/embed/${videoId}`}
+            src={`https://www.youtube.com/embed/${videoId}`}
             className='w-full h-full'
         />
       </div>
