@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PashaKycher.io/MoviesDB/static/css/main.51ed6a71.css",
+    "main.js": "/PashaKycher.io/MoviesDB/static/js/main.d06cccb2.js",
+    "static/media/logo.png": "/PashaKycher.io/MoviesDB/static/media/logo.5f76119f8f1f473eea2f.png",
+    "index.html": "/PashaKycher.io/MoviesDB/index.html",
+    "main.51ed6a71.css.map": "/PashaKycher.io/MoviesDB/static/css/main.51ed6a71.css.map",
+    "main.d06cccb2.js.map": "/PashaKycher.io/MoviesDB/static/js/main.d06cccb2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.51ed6a71.css",
+    "static/js/main.d06cccb2.js"
+  ]
+}
